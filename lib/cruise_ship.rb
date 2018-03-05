@@ -7,5 +7,5 @@
 # }
 
 def select_winner(passengers)
-  return passengers.detect{ |suite, name| suite == "suite_a" && name[0] == a}
+  result = passengers.detect{ |suite, name| suite == "suite_a" && name[0] == a}
 end
