@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   result = passengers.detect{ |suite, name| name if suite == :suite_a && name.start_with?("A")}
-  result[":suite_a"]
+  result[:suite_a]
 end
